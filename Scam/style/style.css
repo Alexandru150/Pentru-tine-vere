@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    background-color:#000;
+}
+#container{
+    position: relative;
+    margin-left:64vh;
+    top:35vh;
+    background-color:white;
+    height:240px;
+    width: 400px;
+    border-radius: 15px;
+    position: absolute;
+
+}
+#container .title {
+    text-align:Center;
+
+}
+
+#container #final > a {
+ margin-left:300px;
+ text-decoration: none;
+ color:rgb(12, 12, 12);
+ background:linear-gradient(45deg, rgb(34, 133, 128),rgb(236, 102, 7));
+padding:3px 3px 3px 3px;
+border-radius:5px;
+font-size:1.2em;
+
+}
+.class{
+    position: relative;
+    margin-left:64vh;
+    top:35vh;
+    background-color:white;
+    height:240px;
+    width: 400px;
+    border-radius: 15px;
+    position: absolute;
+
+}
+.class > .link{
+    margin-left:300px;
+ text-decoration: none;
+ color:rgb(12, 12, 12);
+ background:linear-gradient(45deg, rgb(34, 133, 128),rgb(236, 102, 7));
+padding:3px 3px 3px 3px;
+border-radius:5px;
+font-size:1.2em;
+transition: 0.3s easy
+}
+
+.link:hover{
+background:linear-gradient(45deg, rgb(146, 213, 210),rgb(246, 155, 90));
+}
+button{
+    border-radius: 14px;
+}
+#tok{
+    background-color:rgb(187, 82, 82);
+    width:300px;
+    height:10px;
+    margin-left:400px;
+    margin-top:-300px;
+    z-index:3;
+}
+#tak{
+    background-color:red;
+    width:30px;
+    height:15px;
+    margin-left:370px;
+    margin-top:-10px;
+    border-radius: 3200px 10px 1400px 120px ;
+}
+#ultima{
+    margin-left:400px;
+    color:white;
+    
+    
+}
+video{
+    width:400px;
+    height:400px;
+    transition: width 0.8s, height 0.4s;
+    
+}
+video:hover{
+    width:900px;
+    height:578px;
+}
